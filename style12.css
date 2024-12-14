@@ -1,0 +1,103 @@
+#d1 {
+    background-color: red;
+}
+
+#n1 {
+    overflow: hidden;
+}
+
+#n1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10pt 16pt;
+    float: left;
+}
+
+#dd1 {
+    overflow: hidden;
+    float: left;
+}
+
+#dd1 #bt1 {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    color: white;
+    font-weight: bold;
+    font-size: inherit;
+    padding: 10pt 16pt;
+}
+
+#ddm1 {
+    display: none;
+    position: absolute;
+    max-width: 80px;
+    background-color: cornflowerblue;
+    z-index: 1;
+}
+
+#ddm1 a {
+    float: left;
+    display: block;
+}
+
+#dd1:hover #ddm1 {
+    display: block;
+}
+
+#n1 a:hover,
+#dd1:hover,
+#ddm1 a:hover {
+    background-color: black;
+}
+
+#mainCnt {
+    width: 100%;
+}
+
+#sec1 {
+    width: 30%;
+    float: left;
+    background-color: gray;
+    height: 200pt;
+    overflow: scroll;
+}
+
+#sec2 {
+    width: 70%;
+    background-color: aqua;
+    height: 200pt;
+    overflow: scroll;
+}
+
+#btt1 {
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 50pt;
+}
+
+#btt1:hover {
+    background-color: green;
+    border: 2px dotted red;
+    border-radius: 0px;
+}
+
+#hr1 {
+    border: 4px solid blue;
+}
+
+#hr2 {
+    border: 4px solid red;
+}
+
+#ft1 {
+    width: 100%;
+    background-color: yellow;
+    position: sticky;
+    bottom: 0;
+}

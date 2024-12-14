@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <div>
+      <h1>Travel form for trip</h1>
+      <!-- In php the form input is stored -->
+      <form action="form.php">
+        <input type="text" placeholder="Enter your name" /> <br />
+        <!-- radio buttons -->
+        <label for="Sectionida">
+          <input
+            type="radio"
+            value="Section a"
+            name="Section"
+            id="Sectionida"
+          />
+          Section A
+        </label>
+        <label for="Sectionidb">
+          <input
+            type="radio"
+            value="Section b"
+            name="Section"
+            id="Sectionidb"
+          />
+          Section B
+        </label>
+        <label for="Sectionidc">
+          <input
+            type="radio"
+            value="Section c"
+            name="Section"
+            id="Sectionidc"
+          />
+          Section C
+        </label>
+        <br />
+        <!-- checkbox -->
+        <input type="checkbox" name="canteen" id="foodcanteen" class="red" />
+        food canteen card <br />
+        <!-- date&time -->
+        Select date&time
+        <input type="datetime-local" name=" Date&time" id="datetimelocal" />
+        <br />
+        <!-- email  -->
+        Enter email <input type="email" name="email" id="emailid" /> <br />
+        <input type="file" name="file" id="fileid" accept="pdf" /> <br />
+        <input type="submit" value="SUBMIT" /> <br />
+        <!-- Embed youtube videos -->
+        <iframe
+          src="https://youtu.be/BsDoLVMnmZs?si=AlNPUkx5sw9rfPUy"
+          frameborder="0"
+          width="500"
+          height="300"
+        ></iframe>
+        <br />
+        <video src="anything.mp4"></video>
+      </form>
+    </div>
+  </body>
+</html>

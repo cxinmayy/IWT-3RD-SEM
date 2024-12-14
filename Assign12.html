@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor of Computer Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+        .header {
+            background-color: #993300;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        .top-left-img, .top-right-img {
+            position: absolute;
+            width: 80px; /* Adjust size as needed */
+            height: auto;
+            top: 10px;
+        }
+        .top-left-img {
+            left: 10px;
+        }
+        .top-right-img {
+            right: 10px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: red;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #555;
+            color: white;
+        }
+        .content {
+            display: flex;
+            padding: 20px;
+        }
+        /* Notice and About Section */
+        .notice, .about {
+            width: 50%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #3f83c9;
+            min-width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .login-button {
+            margin-top: 20px;
+            padding: 10px;
+            color: white;
+            background-color: red;
+            text-align: center;
+            cursor: pointer;
+            font-weight: bold; }
+        .login-button:hover {
+            background-color: green;
+            color: #fff;  }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;}
+    </style>
+</head>
+<body>
+<div class="header">
+    <img src="SOA-PNG.png" alt="Left Image" class="top-left-img">
+    <img src="SOA-PNG.png" alt="Right Image" class="top-right-img">
+    <h1>Bachelor of Computer Application</h1>
+    <p style="color: green;">Welcome to ITER, Siksha 'O' Anusandhan at Bhubaneswar</p>
+</div>
+<div class="navbar"> <div>
+    <a href="#">Home</a>
+    <a href="#">Admission</a>
+    <a href="#">Academic</a>
+    <div class="dropdown">
+        <a href="#">Academic</a>
+        <div class="dropdown-content">
+            <a href="#">ITER</a>
+            <a href="#">Law</a>
+            <a href="#">Dental</a>
+            <a href="#">MBA</a>
+        </div>
+    </div>
+    <a href="#">Placement</a>
+    <a href="#">Contact</a></div>
+</div>
+<div class="content">
+    <div class="notice">
+        <h2>Notice</h2>
+        <ul>
+            <li>Holiday Time Extend</li>
+            <li>End-Term exam notice</li>
+            <li>Mid-Term Result Published</li>
+        </ul>
+    </div>
+    <div class="about">
+        <h2>About The College</h2>
+        <p>Siksha 'O' Anusandhan (SOA), formerly Siksha 'O' Anusandhan University (SOA University), is a private deemed university located at Bhubaneswar, Odisha, India. The university is composed of nine degree-granting schools and colleges and has a student body of around 15,000. Many of SOA's programs are nationally accredited, including engineering, medicine, pharmacy, business, nursing, biotechnology, science, humanities, environment, nano technology, materials science, agriculture and law.</p>
+<div class="login-button" onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='red'">
+    Login / Register Here!
+</div>
+
+    </div>
+</div>
+<div class="footer">
+    <p>All Rights Reserved | Created by me & Cared by Mr. Debabrata Roy</p>
+</div>
+</body>
+</html>

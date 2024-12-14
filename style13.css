@@ -1,0 +1,58 @@
+.title {
+    text-align: center;
+    color: white;
+font-size: xx-large;
+    font-style: normal;
+    margin-right: 500%;
+background-image: url(image6.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    opacity: 100;
+}
+
+.sec1 {
+    background-color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section1 {
+   
+    color: black;
+    background-image: url(image4.jpeg);
+    background-repeat: no-repeat;
+}
+
+.section2 {
+    background-image: url(image5.jpeg);
+    background-size: cover;
+ }
+ 
+ .sec2 {
+     background-color: grey;
+     text-transform: uppercase;
+     font-weight: bold;
+     
+ }
+ 
+ .sec3 {
+     background-color: grey;
+     color: black;
+     font-style: italic;
+     font-weight: bolder;
+ }
+ .section3{
+    background-image: url(image2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .upright{
+     text-orientation: upright;
+     writing-mode: vertical-rl;
+     transform: rotate(180deg);}
+ 
